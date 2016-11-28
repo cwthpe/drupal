@@ -40,7 +40,6 @@
  * hostname with that number. For example,
  * http://www.drupal.org:8080/mysite/test/ could be loaded from
  * sites/8080.www.drupal.org.mysite.test/.
- *update
  */
 
 /**
