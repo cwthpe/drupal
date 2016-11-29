@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod -w sites/default/settings.php
