@@ -249,10 +249,10 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => "getenv(database)",
-      'username' => "getenv(dbuser)",
-      'password' => "getenv(dbpass)",
-      'host' => "getenv(dbhost)",
+      'database' => getenv(database),
+      'username' => getenv(dbuser),
+      'password' => getenv(dbpass),
+      'host' => getenv(dbhost),
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
