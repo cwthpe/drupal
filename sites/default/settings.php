@@ -25,7 +25,7 @@
  * For example, for a fictitious site installed at
  * http://www.drupal.org:8080/mysite/test/, the 'settings.php' file is searched
  * for in the following directories:
- *
+ * 
  * - sites/8080.www.drupal.org.mysite.test
  * - sites/www.drupal.org.mysite.test
  * - sites/drupal.org.mysite.test
