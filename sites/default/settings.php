@@ -21,7 +21,7 @@
  * configuration file found will be used and any others will be ignored. If no
  * other configuration file is found then the default configuration file at
  * 'sites/default' will be used.
- *
+ * 
  * For example, for a fictitious site installed at
  * http://www.drupal.org:8080/mysite/test/, the 'settings.php' file is searched
  * for in the following directories:
@@ -45,7 +45,7 @@
  *
  * Note that if you are installing on a non-standard port number, prefix the
  * hostname with that number. For example,
- * http://www.drupal.org:8080/mysite/test/ could be loaded from
+ * http://www.drupal.org:8080/mysite/test/ could be loaded fro
  * sites/8080.www.drupal.org.mysite.test/.
  *
  * @see example.sites.php
