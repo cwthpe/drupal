@@ -21,11 +21,11 @@
  * configuration file found will be used and any others will be ignored. If no
  * other configuration file is found then the default configuration file at
  * 'sites/default' will be used.
- * 
+ *
  * For example, for a fictitious site installed at
  * http://www.drupal.org:8080/mysite/test/, the 'settings.php' file is searched
  * for in the following directories:
- * 
+ *
  * - sites/8080.www.drupal.org.mysite.test
  * - sites/www.drupal.org.mysite.test
  * - sites/drupal.org.mysite.test
@@ -245,9 +245,9 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => getenv('database'),
       'username' => getenv('dbuser'),
@@ -641,4 +641,4 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  *
  * @see drupal_clean_css_identifier()
  */
-# $conf['allow_css_double_underscores'] = TRUE;
+# $conf['allow_css_double_underscores'] = TRUE; test
