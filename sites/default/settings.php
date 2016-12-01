@@ -261,7 +261,7 @@ $databases = array (
 );
 
 /**
- * Access control for update.php script.
+ * Access control for update.php script.  asdf
  *
  * If you are updating your Drupal installation using the update.php script but
  * are not logged in using either an account with the "Administer software
