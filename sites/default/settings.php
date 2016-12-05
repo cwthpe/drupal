@@ -312,7 +312,7 @@ $drupal_hash_salt = 'gg0jAQqvERLd9-_iLZK15TkJ_836rxioOGE2OhzpItM';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-# $base_url = 'http://www.example.com';  // NO trailing slash!
+$base_url = 'https://drupal-test-drupal-dev.apps.hpeplatformservices.com';  // NO trailing slash!
 
 /**
  * PHP settings:
