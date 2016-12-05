@@ -290,7 +290,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'gg0jAQqvERLd9-_iLZK15TkJ_836rxioOGE2OhzpItM';
+$drupal_hash_salt = getenv('hash');
 
 /**
  * Base URL (optional).
@@ -312,7 +312,7 @@ $drupal_hash_salt = 'gg0jAQqvERLd9-_iLZK15TkJ_836rxioOGE2OhzpItM';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-$base_url = 'getenv('url')';  // NO trailing slash!
+$base_url = getenv('url');  // NO trailing slash!
 
 /**
  * PHP settings:
